@@ -1,0 +1,163 @@
+/*===== UNIVERSAL STYLES =====*/
+/*controls sizing*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1em;
+  color: #00407b;
+  background-color: #1a1b1f;
+  background-image: url(https://user-images.githubusercontent.com/30050423/57823089-da663d80-7785-11e9-876b-7f1f10242522.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 10px;
+}
+
+section {
+  width: 40%;
+  margin: 50px auto 0;
+  text-align: center;
+  padding: 0px;
+  /*max-width: 600px;*/
+}
+
+.container {
+  background-color: rgb(255, 255, 255, 0.9);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+button {
+  padding: 5px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 1em;
+  /*border-radius: 0px;
+    box-shadow: none;*/
+}
+
+ul {
+  list-style: none;
+}
+
+h2,
+h1 {
+  padding: 10px;
+}
+/*==========================*/
+/*======= HEADER ==========*/
+header {
+  text-align: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.scoreBar li {
+  display: inline;
+  margin-right: 30px;
+  padding: 5px;
+  background-color: rgb(0, 0, 0, 0.5);
+  color: #fff;
+  border-radius: 5px;
+}
+
+/*==========================*/
+/*======= QUIZ FORM ==========*/
+form {
+  width: 100%;
+  /*padding: 10px;*/
+}
+
+.form-container {
+  display: none;
+}
+
+.quiz {
+  background-color: rgb(255, 255, 255, 0.9);
+  border-radius: 5px;
+  text-align: center;
+}
+
+.quizForm li {
+  display: block;
+  text-align: left;
+  padding: 15px;
+  /*margin-top: 1px;*/
+  background-color: rgb(255, 255, 255, 0.8);
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.quizForm li:hover {
+  background-color: #ffee03;
+}
+
+input[type="radio"] {
+  margin-right: 15px;
+}
+
+fieldset {
+  border: none;
+}
+
+.submit-btn {
+  width: 100%;
+  margin-top: 0px;
+  padding: 10px;
+  background: rgba(121, 122, 122, 0.5);
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+/*button hovers*/
+.submit-btn:hover,
+.restart-btn:hover,
+.start-btn:hover,
+.next-btn:hover {
+  background: rgba(2, 43, 133, 0.5);
+
+  color: #ffffff;
+}
+/*==========================*/
+/*======= FeedBack Page ==========*/
+.feedBackPage {
+  display: none;
+}
+
+.graphic {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 50%;
+}
+.sadImg {
+  display: none;
+  width: 80px;
+  height: 80px;
+  background-color: aliceblue;
+  margin-bottom: 10px;
+}
+
+/*======= Results Page ==========*/
+.resultsPage {
+  display: none;
+}
+
+.licensePlate {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  width: 60%;
+  /*height: 50px;
+    background-color: green;*/
+}
+/*==========================*/
