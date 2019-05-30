@@ -161,3 +161,13 @@ fieldset {
     background-color: green;*/
 }
 /*==========================*/
+
+@media only screen and (max-width: 600px) {
+  section {
+    width: 80%;
+    margin: 50px auto 0;
+    text-align: center;
+    padding: 0px;
+    /*max-width: 600px;*/
+  }
+}
