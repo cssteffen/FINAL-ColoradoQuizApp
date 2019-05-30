@@ -54,7 +54,7 @@ function answerSubmit() {
 
 /* ====== CHECK USER ANSWER ====== */
 function checkAnswer() {
-  const userAnswer = $("input:checked").val();
+  let userAnswer = $("input:checked").val();
 
   const quizAnswer = `${QUIZ[questionNumber].correctAnswer}`;
 
@@ -119,6 +119,7 @@ function handleNextButton() {
     if (questionNumber === QUIZ.length - 1) {
       renderResults();
     } else {
+      $("input[type=radio]").prop("checked", false);
       iterateQuestion();
       renderQuestion();
       $(".form-container").show();

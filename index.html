@@ -27,24 +27,33 @@
       </section>
       <section class="form-container">
         <form class="quizForm">
-        <div class="quiz question">
+        <!--<div class="quiz question">
           <h2 class="quizQuestion">Insert Quiz Question here </h2>
-        </div>
+        </div>-->
           <fieldset>
-            <ul>
-              <li>
-                <input class="answer answer1" type="radio" name="option" required></input><span class="spAns1">Insert Answer Option Here</span>
-                </li>
-              <li>
-                <input class="answer answer2" type="radio" name="option" required></input><span class="spAns2">Insert Answer Option Here</span>
-                </li>
-              <li>
-                <input class="answer answer3" type="radio" name="option" required></input><span class="spAns3">Insert Answer Option Here</span>
-                </li>
-              <li>
-                <input class="answer answer4" type="radio" name="option" required></input><span class="spAns4">Insert Answer Option Here</span>
-                </li>
-            </ul>
+            <legend class="quiz question"><h2 class="quizQuestion">Insert Quiz Question here></h2></legend>
+
+                <label>
+                <input class="answer answer1" type="radio" 
+                name="option"
+                required><span class="spAns1">Insert Answer Option Here</span>
+                </label>
+
+                <label>
+                <input class="answer answer2" type="radio" name="option"
+                required><span class="spAns2">Insert Answer Option Here</span>
+                </label>
+
+                <label>
+                <input class="answer answer3" type="radio" name="option" 
+                required><span class="spAns3">Insert Answer Option Here</span>
+                </label>
+
+                <label>
+                <input class="answer answer4" type="radio" name="option"
+                required><span class="spAns4">Insert Answer Option Here</span>
+                </label>
+
           </fieldset>
           <button type="submit" class="submit-btn button">Submit</button>
         </form>
@@ -63,3 +72,4 @@
     <script src="questions.js"></script>
   </body>
 </html>
+

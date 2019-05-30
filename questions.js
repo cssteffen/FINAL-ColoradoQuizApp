@@ -6,7 +6,7 @@ let QUIZ = [
     answers: ["Delaware", "Oklahoma", "New Hampshire", "Georgia"],
     correctAnswer: "Oklahoma",
     info:
-      "Colorado is bordered by 7 states.<br> Wyoming, Nebraska, Kansas, Oklahoma, New Mexico, Utah and Arizona",
+      "Colorado is bordered by 7 states.<br> Wyoming, Nebraska, Kansas, Oklahoma, New Mexico, Utah and Arizona.",
     graphic:
       "https://user-images.githubusercontent.com/30050423/58584240-64fa7280-8245-11e9-9e92-5a28896ab7ce.png",
     alt: "Map showing states that border Colorado"
@@ -17,7 +17,7 @@ let QUIZ = [
     answers: ["Boulder", "Denver", "Aspen", "Colorado Springs"],
     correctAnswer: "Colorado Springs",
     info:
-      'The Air Force Academy is the youngest of the five U.S. service academies, graduating its first class in 1959. It\'s motto is "Integrity First, Service Before Self, Excellence in All We Do"',
+      'The Air Force Academy is the youngest of the five U.S. service academies, graduating its first class in 1959. It\'s motto is "Integrity First, Service Before Self, Excellence in All We Do".',
     graphic:
       "https://user-images.githubusercontent.com/30050423/58591104-15bc3e00-8255-11e9-9fab-fbed878bab34.png",
     alt: "Image of Air Force Academy"
@@ -34,7 +34,7 @@ let QUIZ = [
     ],
     correctAnswer: "America the Beautiful",
     info:
-      "Based on a poem written by the professor, poet, and writer, Katharine Lee Bates, during an 1893 trip to Colorado Springs.",
+      "Katharine Lee Bates, a professor, poet and writer based the song on a poem she wrote during a 1893 trip to Colorado Springs.",
     graphic:
       "https://user-images.githubusercontent.com/30050423/58591105-15bc3e00-8255-11e9-946b-b2b02e1df7d7.png",
     alt: "America the Beautiful lyrics"
@@ -45,7 +45,7 @@ let QUIZ = [
     answers: ["Pikes Peak", "Mt. Whitney", "Mt. Elbert", "Mt. McKinley"],
     correctAnswer: "Mt. Elbert",
     info:
-      "Mt. Elbert is located in the San Isabel National Forest near Leadville, CO It is the highest point in Colorado with an elevation of 14,440 ft.",
+      "Mt. Elbert is located in the San Isabel National Forest near Leadville, CO. It is the highest point in Colorado with an elevation of 14,440 ft.",
     graphic:
       "https://user-images.githubusercontent.com/30050423/58595405-127a7f80-8260-11e9-9869-4a19a77b5ba7.png",
     alt: "view of Mt. Elbert"
@@ -80,7 +80,7 @@ let QUIZ = [
     answers: ["Sunshine", "Bravery", "Aspen leaves in the fall", "Craft Beer"],
     correctAnswer: "Sunshine",
     info:
-      "The blue is meant to represent the skies, the gold stands for the abundant sunshine the state enjoys, the white represents the snowcapped mountains, and the red represents the reddish-colored earth",
+      "The gold circle stands for the abundant sunshine the state enjoys, the blue is meant to represent the skies, the white represents the snowcapped mountains, and the red represents the reddish-colored earth.",
     graphic:
       "https://user-images.githubusercontent.com/30050423/58591110-1654d480-8255-11e9-85e0-d50258b0efab.png",
     alt: "Colorado flag"
@@ -153,7 +153,7 @@ let QUIZ = [
     ],
     correctAnswer: "All of the Above",
     info:
-      "Tokyo Joe's: 1996 - Englewood, CO,Chipotle: 1993 - Denver, CO, Noodles & Company: 1995 - Cherry Creek, CO",
+      "Tokyo Joe's: 1996 - Englewood, CO. Chipotle: 1993 - Denver, CO. Noodles & Company: 1995 - Cherry Creek, CO.",
     graphic:
       "https://user-images.githubusercontent.com/30050423/58595759-44401600-8261-11e9-88a8-41f0094b57d1.png",
     alt: "restaurant logos"
@@ -169,7 +169,7 @@ let QUIZ = [
     ],
     correctAnswer: "Rocky Mountains",
     info:
-      "The Rocky Mountains stretch more than 3,000mi. The Continental Divide is located in the Rockies and designates the line at which water flow either to the Atlantic or Pacific Oceans",
+      "The Rocky Mountains stretch more than 3,000mi. The Continental Divide is located in the Rockies and designates the line at which water flows either to the Atlantic or Pacific Oceans.",
     graphic:
       "https://user-images.githubusercontent.com/30050423/58591128-2076d300-8255-11e9-950b-c699e644b588.png",
     alt: "The Rocky Mountains"
@@ -181,7 +181,7 @@ let QUIZ = [
     answers: ["300", "260", "180", "345"],
     correctAnswer: "300",
     info:
-      "The National Weather Service established a criteria for determing if a day is clear, cloudy or partly cloudy. Clear days = cloud coverage 30% or less of the day. Cloudy days = over 80% cloud coverage. Partly Cloudy = anything in between. Based off of this criteria, Denver typically gets 115 clear days, 130 partly cloudy days & 120 cloudy days each year. Doesn't quite add up, does it?",
+      "The National Weather Service established a criteria for determing if a day is clear, cloudy or partly cloudy. Clear days = cloud coverage 30% or less of the day. Cloudy days = over 80% cloud coverage. Partly Cloudy = anything in between. Based off of this criteria, Denver typically gets 115 clear days, 130 partly cloudy days & 120 cloudy days each year. Do you think it's a myth?",
     graphic:
       "https://user-images.githubusercontent.com/30050423/58596880-3ee4ca80-8265-11e9-9ae1-e965d8726174.png",
     alt: "sunshine"
@@ -197,7 +197,7 @@ let QUIZ = [
     ],
     correctAnswer: "Nil Sine Numine - Nothing without the providence",
     info:
-      '"Nile Sine Numine", Latin words meaning "Nothing without providence" or "nothing without the Deity" is Colorado\'s state motto',
+      '"Nile Sine Numine", Latin words meaning "Nothing without providence" or "Nothing without the Deity" is Colorado\'s state motto.',
     graphic:
       "https://user-images.githubusercontent.com/30050423/58596718-ac442b80-8264-11e9-8a7f-a3463583bf65.png",
     alt: "Colorado motto"
@@ -214,7 +214,7 @@ let QUIZ = [
     ],
     correctAnswer: "Mount Evans Scenic Byway",
     info:
-      "The Mount Evans Scenic Byway climbs over 7,000 feet in its 28-mile length and reaches an altitude of 14,130 feet",
+      "The Mount Evans Scenic Byway climbs over 7,000 feet in its 28-mile length and reaches an altitude of 14,130 feet.",
     graphic:
       "https://user-images.githubusercontent.com/30050423/58591125-2076d300-8255-11e9-983d-721ffec3825d.png",
     alt: "view from road"
